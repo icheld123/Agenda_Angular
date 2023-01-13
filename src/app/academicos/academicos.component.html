@@ -1,0 +1,8 @@
+<div class="contenedor-evento">
+    <div class="caja-evento" *ngFor="let item of Evento">
+        <h3>{{item.nombre}}</h3>
+        <h4>{{item.fecha}}<br>{{item.hora}}</h4>
+        <a href={{item.youtube}}><img src="" alt="">Transmisión</a><br><br>
+        <a href={{item.inscripcion}} class="btn-inscripcion">Inscribirse</a>
+    </div>
+</div>

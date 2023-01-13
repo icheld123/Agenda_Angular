@@ -1,0 +1,26 @@
+<h1>Formulario de registro</h1>
+<div class="container">
+    <form [formGroup]="formulario">
+        <div>
+            <label class="col-25">Usuario: </label>
+            <input type="text" class="form-control col-75" formControlName="user">
+        </div>
+        <div>
+            <label class="col-25">Apellido: </label>
+            <input type="text" class="form-control col-75" formControlName="lastname">
+        </div>
+        <div>
+            <label class="col-25">Género: </label>
+            <input type="text" class="form-control col-75" formControlName="gender">
+        </div>
+        <div>
+            <label class="col-25">Edad: </label>
+            <input type="number" class="form-control col-75" formControlName="age">
+        </div>
+        <div>
+            <label class="col-25">Correo: </label>
+            <input type="text" class="form-control col-75" formControlName="email">
+        </div>
+        <button class="btn" type="submit">Enviar</button>
+    </form>
+</div>

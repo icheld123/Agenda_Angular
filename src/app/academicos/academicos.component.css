@@ -1,0 +1,30 @@
+.contenedor-evento{
+    margin: 10em auto;
+    width: 80%;
+}
+.contenedor-evento p{
+    text-align: center;
+}
+.caja-evento{
+    display: inline-block;
+    width: 45%;
+    height: 15em;
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+    background-color:#d8e9f1;
+    border-width: 0.2em;
+    border-radius: 1em;
+}
+.caja-evento a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.caja-evento a.btn-inscripcion{
+    background-color: #F8712E;
+    padding: 0.5em 1em;
+    width: 20%;
+    text-align: center;
+    border-radius: 1em;
+}
